@@ -1,0 +1,17 @@
+---
+- name: Create the clone
+  proxmox_kvm:
+    api_user     : "{{ api_user }}"
+    api_password : "{{ api_password }}"
+    api_host     : "{{ api_host }}"
+    clone        : "{{ clone }}"
+    vmid         : "{{ vmid }}"
+    newid        : "{{ newid }}"
+    name         : "{{ name }}"
+    node         : "{{ node }}"
+    storage      : "{{ storage }}"
+    format       : "{{ format }}"
+    pool         : "{{ pool }}"
+    cores        : "{{ cores }}"
+    vcpus        : "{{ vcpus }}"
+    timeout      : "{{ timeout }}"

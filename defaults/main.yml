@@ -1,0 +1,15 @@
+---
+api_user: user@pve
+api_password: doctor_stranger
+api_host: you_web_site
+clone: UBUNTU-16LTS
+vmid: 240
+newid: 480
+name: new_host_the_clone
+node: name_the_host
+storage: name_the_storage
+format: qcow2
+pool: you_pool
+cores: 4
+vcpus: 2
+timeout: 200
