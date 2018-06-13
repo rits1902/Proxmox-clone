@@ -12,6 +12,5 @@ galaxy_info:
       - precise
       - xenial
   categories:
-   - proxmox
    - system
 dependencies: []
